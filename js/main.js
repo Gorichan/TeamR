@@ -1,0 +1,1 @@
+"use strict";$(".accordion__title").click((function(){$(this).toggleClass("active"),$(this).closest(".accordion__item").find(".accordion__txt").slideToggle()})),$(document).ready((function(){$(".header__burger").click((function(e){$(".header__burger,.header__menu").toggleClass("active")}))})),$(document).ready((function(){$(".slider").slick({dots:!0})}));
